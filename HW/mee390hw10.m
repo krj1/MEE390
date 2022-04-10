@@ -19,7 +19,7 @@ end
 
 
 
-ans = fourier(t);
+answer = fourier(t);
 
 
 
@@ -30,7 +30,7 @@ crap = 95;
 shit = 220;
 scatter(A(crap:shit,5)-.005,A(crap:shit,6),4)
 figure;
-plot(t, ans)
+plot(t, answer)
 function F = fourier(f)
     keeper = 0;
     
